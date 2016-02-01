@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$( document ).ready(function() {
+  $('#tweet-conditions-btn').on('click', function() {
+    $.get("/wave/tweet_conditions", function (response) {
+      $("div").append(response)
+    })
+  })
+});

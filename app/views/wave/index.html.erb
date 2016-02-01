@@ -1,5 +1,4 @@
-All Data: <br>
-<%= @wind.data %><br><br>
+<h2>Current Wind conditions in DTSP St. Pete & Lassing Park</h2>
 
 Latest Wind Speed: <br>
 <%= @wind.speed %><br><br>
@@ -9,3 +8,8 @@ Latest Wind Gust: <br>
 
 Latest Direction: <br>
 <%= @wind.direction %><br><br>
+
+<%= button_tag 'Tweet current conditions', id: "tweet-conditions-btn" %><br><br>
+<div id="tweet">
+
+</div>
