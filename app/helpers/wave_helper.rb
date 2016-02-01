@@ -1,0 +1,2 @@
+module WaveHelper
+end
