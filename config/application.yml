@@ -6,10 +6,20 @@
 # stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
 # stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
 #
-# production:
+development:
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
 tw_key: c92FbIifmzUsKbHJHAlHqkSpA
 tw_secret: WwAFKdcYAEqBQbGbw5Ig2FpRgqu0iTERz8k1nOVfyvpIcNtv1E
 tw_access_token: 4842247644-tsvEnJvYKZhTAlGgRHgL2xsH6YotItwFsTR8oam
 tw_token_secret: AS9RANZlszF0ggxQ8nU4Jtf2xuYEQu41SwuKti8RnbDSf
+google_api: AIzaSyCpFaDZCbjJ8FMRxNB9R6ZvWPo-KTZQp4U
+
+production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+tw_key: c92FbIifmzUsKbHJHAlHqkSpA
+tw_secret: WwAFKdcYAEqBQbGbw5Ig2FpRgqu0iTERz8k1nOVfyvpIcNtv1E
+tw_access_token: 4842247644-tsvEnJvYKZhTAlGgRHgL2xsH6YotItwFsTR8oam
+tw_token_secret: AS9RANZlszF0ggxQ8nU4Jtf2xuYEQu41SwuKti8RnbDSf
+google_api: AIzaSyCpFaDZCbjJ8FMRxNB9R6ZvWPo-KTZQp4U
