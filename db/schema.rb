@@ -13,12 +13,21 @@
 
 ActiveRecord::Schema.define(version: 20160201013927) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "twitter_posts", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-# Could not dump table "winds" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
+  create_table "winds", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "data"
+    t.string   "direction"
+    t.float    "speed"
+    t.float    "gust"
+  end
 
 end
