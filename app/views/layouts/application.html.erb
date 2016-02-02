@@ -20,14 +20,11 @@
   </style>
 
   <script type="text/javascript">
-    "use stict";
-    (function assignVariables() {
-      var map;
-      var map_center = {lat: 37.79000, lng: -122.4185823};
-      var sixt = {lat: 37.80728339610364, lng: -122.41834759712219};
-      var origin_point;
-    })()
-    
+    var map;
+    var map_center = {lat: 37.79000, lng: -122.4185823};
+    var sixt = {lat: 37.80728339610364, lng: -122.41834759712219};
+    var origin_point;
+  
 
     (function () {
       navigator.geolocation.getCurrentPosition(function(position){ origin_point = {lat: position.coords.latitude, lng: position.coords.longitude}})
@@ -65,7 +62,7 @@
           }
         });
         //time it takes to load client's location
-      },3500)
+      }, 3500)
     }
   </script>
 

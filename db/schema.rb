@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(version: 20160201013927) do
     t.datetime "updated_at", null: false
     t.string   "data"
     t.string   "direction"
-    t.float    "speed"
-    t.float    "gust"
+    t.decimal  "speed"
+    t.decimal  "gust"
   end
 
 end
