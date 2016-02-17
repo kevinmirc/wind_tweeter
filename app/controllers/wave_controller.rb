@@ -1,7 +1,8 @@
 class WaveController < ApplicationController
   include HTTParty
   def index
-    @wind = Wind.new.set_data
+    @wind = Wind.new
+    @wind.set_data
   end
 
   def tweet_conditions
